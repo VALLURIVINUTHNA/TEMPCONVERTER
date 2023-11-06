@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #F1B4BB;
+    text-align: center;
+    padding: 2em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.title{
+    font-size: 3.5em;
+    margin-top: 2rem;
+    color: #1F4172;
+    margin-bottom: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.units {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+
+.panel {
+    border-radius: 10px;
+    box-shadow:
+        0 4px 15px rgba(0, 0, 0, 0.15);
+        min-width: 15em;
+        height: 13em;
+        position: relative;
+}
+
+.panel-one{
+    background: #132043;
+}
+
+.panel-two {
+    background: #132043;
+}
+
+.panel-three {
+    background: #132043;
+}
+
+.bg-unit {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7em;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.panel-one .bg-unit {
+    color: #FDF0F0;
+}
+
+.panel-two .bg-unit {
+    color: #FDF0F0;
+}
+
+.panel-three .bg-unit {
+    color: #FDF0F0;
+}
+
+.panel h2, .panel input {
+    position: relative;
+}
+
+.panel h2 {
+    text-align: left;
+    padding-left: 1em;
+    font-size: 1em;
+}
+
+.panel input::-webkit-outer-spin-button,
+.panel input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.panel input {
+    border: none;
+    background: none;
+    margin-top: 2.5rem;
+    width: 4em;
+    height: 2em;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #f8f0f8;
+}
+
+.panel input:focus {
+    outline: none;
+}
